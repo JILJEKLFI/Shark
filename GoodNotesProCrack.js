@@ -70,7 +70,7 @@ $done({
                 }
             },
             "original_purchase_date": "2022-01-04T13:41:52Z",
-            "original_app_user_id": "4438a86c-7033-455c-ab39-65837f9aecbf",
+            "original_app_user_id": "1d6316b8-aab7-4c1f-9dee-df471814b03e",
             "last_seen": "2023-08-29T04:56:37Z"
         }
     })
