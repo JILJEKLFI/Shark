@@ -13,9 +13,9 @@
  hostname=isi.csan.goodnotes.com
 
  ***********************************/
-var res = JSON.parse($response.body);
-console.log(res);
-res.subscriber.non_subscriptions = {
+var gn6res = JSON.parse($response.body);
+console.log(gn6res);
+gn6res.subscriber.non_subscriptions = {
     "com.goodnotes6.one_time_unlock": [
         {
             "is_sandbox": false,
@@ -28,21 +28,21 @@ res.subscriber.non_subscriptions = {
         }
     ]
 }
-res.subscriber.other_purchases = {
+gn6res.subscriber.other_purchases = {
     "com.goodnotes6.one_time_unlock": {
         "purchase_date": "2023-08-10T23:58:09Z"
     }
 }
-res.subscriber.entitlements.premium = {
+gn6res.subscriber.entitlements.premium = {
     "grace_period_expires_date": null,
     "purchase_date": "2023-08-24T03:45:41Z",
     "product_identifier": "com.goodnotes6.one_time_unlock",
     "expires_date": null
 }
-res.subscriber.entitlements.apple_access = {
+gn6res.subscriber.entitlements.apple_access = {
     "grace_period_expires_date": null,
     "purchase_date": "2023-08-10T14:16:41Z",
     "product_identifier": "com.goodnotes6.one_time_unlock",
     "expires_date": null
 }
-$done({body: JSON.stringify(res)});
+$done({body: JSON.stringify(gn6res)});
