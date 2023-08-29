@@ -28,11 +28,11 @@ gn6res.subscriber.non_subscriptions = {
         }
     ]
 }
-// gn6res.subscriber.other_purchases = {
-//     "com.goodnotes6.one_time_unlock": {
-//         "purchase_date": "2023-08-10T23:58:09Z"
-//     }
-// }
+gn6res.subscriber.other_purchases = {
+    "com.goodnotes6.one_time_unlock": {
+        "purchase_date": "2023-08-10T23:58:09Z"
+    }
+}
 // gn6res.subscriber.entitlements.premium = {
 //     "grace_period_expires_date": null,
 //     "purchase_date": "2023-08-24T03:45:41Z",
