@@ -1,0 +1,114 @@
+{
+  "request_date_ms": 1693285507211,
+  "request_date": "2023-08-29T05:05:07Z",
+  "subscriber": {
+    "non_subscriptions": {
+      "com.goodnotes.premium_7dt": [
+        {
+          "is_sandbox": false,
+          "ownership_type": "PURCHASED",
+          "id": "c3f10caf05",
+          "original_purchase_date": "2023-08-24T03:45:41Z",
+          "store_transaction_id": "350001668680087",
+          "purchase_date": "2023-08-24T03:45:41Z",
+          "store": "app_store"
+        }
+      ]
+    },
+    "first_seen": "2023-08-25T11:25:05Z",
+    "original_application_version": "1442266.462619634",
+    "other_purchases": {
+      "com.goodnotes.premium_7dt": {
+        "purchase_date": "2023-08-24T03:45:41Z"
+      }
+    },
+    "management_url": null,
+    "subscriptions": {
+      "rc_promo_crossplatform_access_weekly": {
+        "original_purchase_date": "2023-08-24T03:45:41Z",
+        "expires_date": "2023-08-31T03:45:41Z",
+        "is_sandbox": false,
+        "refunded_at": null,
+        "store_transaction_id": "b2cd2ee1ff7394e52a090b2bf4e22b32",
+        "unsubscribe_detected_at": null,
+        "grace_period_expires_date": null,
+        "period_type": "normal",
+        "purchase_date": "2023-08-24T03:45:41Z",
+        "billing_issues_detected_at": null,
+        "store": "promotional",
+        "auto_resume_date": null
+      },
+      "rc_promo_gn5_lifetime": {
+        "original_purchase_date": "2022-01-04T13:41:52Z",
+        "expires_date": "2221-11-17T13:41:52Z",
+        "is_sandbox": false,
+        "refunded_at": null,
+        "store_transaction_id": "67c084dfcc73d94f22c175d1606a8a81",
+        "unsubscribe_detected_at": null,
+        "grace_period_expires_date": null,
+        "period_type": "normal",
+        "purchase_date": "2022-01-04T13:41:52Z",
+        "billing_issues_detected_at": null,
+        "store": "promotional",
+        "auto_resume_date": null
+      },
+      "rc_promo_apple_access_weekly": {
+        "original_purchase_date": "2023-08-24T03:45:41Z",
+        "expires_date": "2023-08-31T03:45:41Z",
+        "is_sandbox": false,
+        "refunded_at": null,
+        "store_transaction_id": "3bfdea00dc3bd229e024321c7b145dab",
+        "unsubscribe_detected_at": null,
+        "grace_period_expires_date": null,
+        "period_type": "normal",
+        "purchase_date": "2023-08-24T03:45:41Z",
+        "billing_issues_detected_at": null,
+        "store": "promotional",
+        "auto_resume_date": null
+      },
+      "rc_promo_premium_weekly": {
+        "original_purchase_date": "2023-08-24T03:45:41Z",
+        "expires_date": "2023-08-31T03:45:41Z",
+        "is_sandbox": false,
+        "refunded_at": null,
+        "store_transaction_id": "3744b2789273b019c49cf75f24e7f4e4",
+        "unsubscribe_detected_at": null,
+        "grace_period_expires_date": null,
+        "period_type": "normal",
+        "purchase_date": "2023-08-24T03:45:41Z",
+        "billing_issues_detected_at": null,
+        "store": "promotional",
+        "auto_resume_date": null
+      }
+    },
+    "entitlements": {
+      "apple_access": {
+        "grace_period_expires_date": null,
+        "purchase_date": "2023-08-24T03:45:41Z",
+        "product_identifier": "rc_promo_apple_access_weekly",
+        "expires_date": "2023-08-31T03:45:41Z"
+      },
+      "gn5": {
+        "grace_period_expires_date": null,
+        "purchase_date": "2022-01-04T13:41:52Z",
+        "product_identifier": "rc_promo_gn5_lifetime",
+        "expires_date": "2221-11-17T13:41:52Z"
+      },
+      "crossplatform_access": {
+        "grace_period_expires_date": null,
+        "purchase_date": "2023-08-24T03:45:41Z",
+        "product_identifier": "rc_promo_crossplatform_access_weekly",
+        "expires_date": "2023-08-31T03:45:41Z"
+      },
+      "premium": {
+        "grace_period_expires_date": null,
+        "purchase_date": "2023-08-24T03:45:41Z",
+        "product_identifier": "rc_promo_premium_weekly",
+        "expires_date": "2023-08-31T03:45:41Z"
+      }
+    },
+    "original_purchase_date": "2022-01-04T13:41:52Z",
+    "original_app_user_id": "4438a86c-7033-455c-ab39-65837f9aecbf",
+    "last_seen": "2023-08-29T04:56:37Z"
+  }
+}
