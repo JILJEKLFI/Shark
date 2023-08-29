@@ -24,15 +24,16 @@ gn6res.subscriber.non_subscriptions = {
             "original_purchase_date": "2022-11-10T23:58:09Z",
             "store_transaction_id": "300001271068792",
             "purchase_date": "2023-08-10T23:58:09Z",
-            "store": "app_store"
+            "store": "app_store",
+            "Warning" : "破解"
         }
     ]
 }
-gn6res.subscriber.other_purchases = {
-    "com.goodnotes6.one_time_unlock": {
-        "purchase_date": "2023-08-10T23:58:09Z"
-    }
-}
+// gn6res.subscriber.other_purchases = {
+//     "com.goodnotes6.one_time_unlock": {
+//         "purchase_date": "2023-08-10T23:58:09Z"
+//     }
+// }
 // gn6res.subscriber.entitlements.premium = {
 //     "grace_period_expires_date": null,
 //     "purchase_date": "2023-08-24T03:45:41Z",
