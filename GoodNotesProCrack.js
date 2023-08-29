@@ -15,19 +15,19 @@
  ***********************************/
 var gn6res = JSON.parse($response.body);
 console.log(gn6res);
-// gn6res.subscriber.non_subscriptions = {
-//     "com.goodnotes6.one_time_unlock": [
-//         {
-//             "is_sandbox": false,
-//             "ownership_type": "PURCHASED",
-//             "id": "46ab585dbc",
-//             "original_purchase_date": "2022-11-10T23:58:09Z",
-//             "store_transaction_id": "300001271068792",
-//             "purchase_date": "2023-08-10T23:58:09Z",
-//             "store": "app_store"
-//         }
-//     ]
-// }
+gn6res.subscriber.non_subscriptions = {
+    "com.goodnotes6.one_time_unlock": [
+        {
+            "is_sandbox": false,
+            "ownership_type": "PURCHASED",
+            "id": "46ab585dbc",
+            "original_purchase_date": "2022-11-10T23:58:09Z",
+            "store_transaction_id": "300001271068792",
+            "purchase_date": "2023-08-10T23:58:09Z",
+            "store": "app_store"
+        }
+    ]
+}
 // gn6res.subscriber.other_purchases = {
 //     "com.goodnotes6.one_time_unlock": {
 //         "purchase_date": "2023-08-10T23:58:09Z"
