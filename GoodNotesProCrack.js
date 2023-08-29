@@ -45,4 +45,4 @@ res.subscriber.entitlements.apple_access = {
     "product_identifier": "com.goodnotes6.one_time_unlock",
     "expires_date": null
 }
-$done({body: JSON.stringify(ddgksf2013)});
+$done({body: JSON.stringify(res)});
