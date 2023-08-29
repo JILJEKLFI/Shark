@@ -33,12 +33,12 @@ gn6res.subscriber.other_purchases = {
         "purchase_date": "2023-08-10T23:58:09Z"
     }
 }
-// gn6res.subscriber.entitlements.premium = {
-//     "grace_period_expires_date": null,
-//     "purchase_date": "2023-08-24T03:45:41Z",
-//     "product_identifier": "com.goodnotes6.one_time_unlock",
-//     "expires_date": null
-// }
+gn6res.subscriber.entitlements.premium = {
+    "grace_period_expires_date": null,
+    "purchase_date": "2023-08-24T03:45:41Z",
+    "product_identifier": "com.goodnotes6.one_time_unlock",
+    "expires_date": null
+}
 // gn6res.subscriber.entitlements.apple_access = {
 //     "grace_period_expires_date": null,
 //     "purchase_date": "2023-08-10T14:16:41Z",
