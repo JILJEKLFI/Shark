@@ -14,8 +14,8 @@
 
  ***********************************/
 var gn6res = JSON.parse($response.body);
-console.log(gn6res);
-gn6res.subscriber.non_subscriptions = {
+gn6res = gn6res.subscriber;
+gn6res.non_subscriptions = {
     "com.goodnotes6.one_time_unlock": [
         {
             "is_sandbox": false,
@@ -29,11 +29,12 @@ gn6res.subscriber.non_subscriptions = {
         }
     ]
 }
-// gn6res.subscriber.other_purchases = {
-//     "com.goodnotes6.one_time_unlock": {
-//         "purchase_date": "2023-08-10T23:58:09Z"
-//     }
-// }
+gn6res.other_purchases = {
+    "com.goodnotes6.one_time_unlock": {
+        "purchase_date": "2023-08-10T23:58:09Z",
+        "Warning": "破解"
+    }
+}
 // gn6res.subscriber.entitlements.premium = {
 //     "grace_period_expires_date": null,
 //     "purchase_date": "2023-08-24T03:45:41Z",
