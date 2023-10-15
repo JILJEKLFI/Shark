@@ -27,7 +27,7 @@ $done({
                 "identity_provider" : "MICROSOFT",
                 "accepted_tos" : 1696830434292,
                 "first_name" : "逢考必过",
-                "guid" : "5a1cf8b3-5d48-4418-826b-0530e55f47a4"
+                "guid" : "1d6316b8-aab7-4c1f-9dee-df471814b03e"
             },
             "schema_id" : "v1",
             "id" : "7e818cf7-1413-4117-98b7-a7a5c581d6c6",
@@ -50,7 +50,7 @@ $done({
                         "expires_at" : 7891268083000
                     }
                 },
-                "guid" : "5a1cf8b3-5d48-4418-826b-0530e55f47a4",
+                "guid" : "1d6316b8-aab7-4c1f-9dee-df471814b03e",
                 "identity_provider" : "MICROSOFT",
             },
             "created_at" : "2023-10-09T05:28:31.859693Z",

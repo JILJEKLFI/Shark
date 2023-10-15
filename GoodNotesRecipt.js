@@ -48,7 +48,7 @@ $done({
                         "expires_date" : "2222-10-17T07:09:28Z",
                         "is_sandbox" : false,
                         "refunded_at" : null,
-                        "store_transaction_id" : "200001801517380",
+                        "store_transaction_id" : "300001271068792",
                         "unsubscribe_detected_at" : null,
                         "grace_period_expires_date" : null,
                         "period_type" : "normal",
@@ -80,7 +80,7 @@ $done({
                     }
                 },
                 "original_purchase_date" : "2020-03-13T02:54:43Z",
-                "original_app_user_id" : "5a1cf8b3-5d48-4418-826b-0530e55f47a4",
+                "original_app_user_id" : "1d6316b8-aab7-4c1f-9dee-df471814b03e",
                 "last_seen" : "2023-10-15T00:05:54Z"
             }
         }
