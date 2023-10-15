@@ -116,7 +116,7 @@ $done({
                 "entitlements": {
                     "apple_access": {
                         "grace_period_expires_date": null,
-                        "purchase_date": "2023-10-15T11:48:23Z",
+                        "purchase_date": "2024-10-15T11:48:23Z",
                         "product_identifier": "com.goodnotes.premium_1y25off_1y_999",
                         "expires_date": "2224-10-15T11:48:23Z"
                     },
