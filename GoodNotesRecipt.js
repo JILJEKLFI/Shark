@@ -43,7 +43,7 @@ $done({
                 "subscriptions": {
                     "com.goodnotes.premium_1y25off_1y_999": {
                         "original_purchase_date": "2023-10-15T11:48:28Z",
-                        "expires_date": "2024-10-15T11:48:23Z",
+                        "expires_date": "2224-10-15T11:48:23Z",
                         "is_sandbox": false,
                         "refunded_at": null,
                         "store_transaction_id": "350001726640675",
@@ -118,7 +118,7 @@ $done({
                         "grace_period_expires_date": null,
                         "purchase_date": "2023-10-15T11:48:23Z",
                         "product_identifier": "com.goodnotes.premium_1y25off_1y_999",
-                        "expires_date": "2024-10-15T11:48:23Z"
+                        "expires_date": "2224-10-15T11:48:23Z"
                     },
                     "gn5": {
                         "grace_period_expires_date": null,
@@ -130,7 +130,7 @@ $done({
                         "grace_period_expires_date": null,
                         "purchase_date": "2023-10-15T11:48:23Z",
                         "product_identifier": "com.goodnotes.premium_1y25off_1y_999",
-                        "expires_date": "2024-10-15T11:48:23Z"
+                        "expires_date": "2224-10-15T11:48:23Z"
                     },
                     "premium": {
                         "grace_period_expires_date": null,
