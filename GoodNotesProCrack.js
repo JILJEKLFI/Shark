@@ -52,7 +52,6 @@ $done({
                 },
                 "guid" : "5a1cf8b3-5d48-4418-826b-0530e55f47a4",
                 "identity_provider" : "MICROSOFT",
-                "freemium_max_documents_gnc" : 3
             },
             "created_at" : "2023-10-09T05:28:31.859693Z",
             "updated_at" : "2023-10-09T05:28:31.859693Z",
