@@ -26,7 +26,7 @@ $done({
                 "last_name" : "",
                 "identity_provider" : "MICROSOFT",
                 "accepted_tos" : 1696830434292,
-                "first_name" : "G G",
+                "first_name" : "逢考必过",
                 "guid" : "5a1cf8b3-5d48-4418-826b-0530e55f47a4"
             },
             "schema_id" : "v1",
