@@ -1,63 +1,69 @@
 {
-  "active" : true,
-  "issued_at" : "2023-10-15T03:04:02.010859Z",
-  "id" : "ac60b11e-3156-43b6-8f78-2d1704095160",
-  "expires_at" : "2023-11-14T03:04:02.010859Z",
-  "authenticator_assurance_level" : "aal1",
-  "identity" : {
-    "traits" : {
-      "email" : "note2622@outlook.com",
-      "last_name" : "",
-      "identity_provider" : "MICROSOFT",
-      "accepted_tos" : 1696830434292,
-      "first_name" : "G G",
-      "guid" : "5a1cf8b3-5d48-4418-826b-0530e55f47a4"
+  "request_date_ms" : 1697339620770,
+  "request_date" : "2023-10-15T03:13:40Z",
+  "subscriber" : {
+    "non_subscriptions" : {
+
     },
-    "schema_id" : "v1",
-    "id" : "7e818cf7-1413-4117-98b7-a7a5c581d6c6",
-    "state_changed_at" : "2023-10-09T05:28:31.856672Z",
-    "metadata_public" : {
-      "is_email_fake" : false,
-      "registration_client_platform" : "APPLE",
-      "country" : "USA",
-      "registration_client_os" : "IOS",
-      "accepted_tos" : 1696830434292,
-      "is_personal_data_anonymized" : false,
-      "entitlements" : {
-        "apple_access" : {
-          "expires_at" : 1697526568000
-        },
-        "gn5" : {
-          "expires_at" : 7891268083000
-        },
-        "crossplatform_access" : {
-          "expires_at" : 1697526568000
-        }
+    "first_seen" : "2023-10-09T05:28:35Z",
+    "original_application_version" : "497354.482413658",
+    "other_purchases" : {
+
+    },
+    "management_url" : "https://apps.apple.com/account/subscriptions",
+    "subscriptions" : {
+      "rc_promo_gn5_lifetime" : {
+        "original_purchase_date" : "2020-03-13T02:54:43Z",
+        "expires_date" : "2220-01-25T02:54:43Z",
+        "is_sandbox" : false,
+        "refunded_at" : null,
+        "store_transaction_id" : "cb5ad22a3c4a0885bcdce8cdf6febe77",
+        "unsubscribe_detected_at" : null,
+        "grace_period_expires_date" : null,
+        "period_type" : "normal",
+        "purchase_date" : "2020-03-13T02:54:43Z",
+        "billing_issues_detected_at" : null,
+        "store" : "promotional",
+        "auto_resume_date" : null
       },
-      "guid" : "5a1cf8b3-5d48-4418-826b-0530e55f47a4",
-      "identity_provider" : "MICROSOFT",
-      "freemium_max_documents_gnc" : 3
+      "com.goodnotes.gn6_one_time_unlock_3749" : {
+        "original_purchase_date" : "2023-10-10T07:09:29Z",
+        "expires_date" : "2222-10-17T07:09:28Z",
+        "is_sandbox" : false,
+        "refunded_at" : null,
+        "store_transaction_id" : "200001801517380",
+        "unsubscribe_detected_at" : null,
+        "grace_period_expires_date" : null,
+        "period_type" : "normal",
+        "purchase_date" : "2023-10-10T07:09:28Z",
+        "billing_issues_detected_at" : null,
+        "ownership_type" : "PURCHASED",
+        "store" : "app_store",
+        "auto_resume_date" : null
+      }
     },
-    "created_at" : "2023-10-09T05:28:31.859693Z",
-    "updated_at" : "2023-10-09T05:28:31.859693Z",
-    "schema_url" : "https://kratos.goodnotes.com/schemas/djE",
-    "state" : "active"
-  },
-  "devices" : [
-    {
-      "ip_address" : "103.212.34.113",
-      "id" : "4aa1fc48-b686-4540-aafd-4088bce89c9b",
-      "user_agent" : "Mozilla/5.0 (iPad; CPU OS 17_0_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0.1 Mobile/15E148 Safari/604.1",
-      "location" : ""
-    }
-  ],
-  "authentication_methods" : [
-    {
-      "method" : "oidc",
-      "aal" : "aal1",
-      "completed_at" : "2023-10-15T03:04:02.010853334Z",
-      "provider" : "microsoft"
-    }
-  ],
-  "authenticated_at" : "2023-10-15T03:04:02.010859Z"
+    "entitlements" : {
+      "apple_access" : {
+        "grace_period_expires_date" : null,
+        "purchase_date" : "2023-10-10T07:09:28Z",
+        "product_identifier" : "com.goodnotes.gn6_one_time_unlock_3749",
+        "expires_date" : "2222-10-17T07:09:28Z"
+      },
+      "gn5" : {
+        "grace_period_expires_date" : null,
+        "purchase_date" : "2020-03-13T02:54:43Z",
+        "product_identifier" : "rc_promo_gn5_lifetime",
+        "expires_date" : "2220-01-25T02:54:43Z"
+      },
+      "crossplatform_access" : {
+        "grace_period_expires_date" : null,
+        "purchase_date" : "2023-10-10T07:09:28Z",
+        "product_identifier" : "com.goodnotes.gn6_one_time_unlock_3749",
+        "expires_date" : "2222-10-17T07:09:28Z"
+      }
+    },
+    "original_purchase_date" : "2020-03-13T02:54:43Z",
+    "original_app_user_id" : "5a1cf8b3-5d48-4418-826b-0530e55f47a4",
+    "last_seen" : "2023-10-15T00:05:54Z"
+  }
 }
