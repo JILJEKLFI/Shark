@@ -1,60 +1,63 @@
 {
-  "request_date_ms": 1693285507211,
-  "request_date": "2023-08-29T05:05:07Z",
-  "subscriber": {
-    "non_subscriptions": {
-      "com.goodnotes6.one_time_unlock": [
-        {
-          "is_sandbox": false,
-          "ownership_type": "PURCHASED",
-          "id": "c3f10caf05",
-          "original_purchase_date": "2023-08-24T03:45:41Z",
-          "store_transaction_id": "350001668680087",
-          "purchase_date": "2023-08-24T03:45:41Z",
-          "store": "app_store"
+  "active" : true,
+  "issued_at" : "2023-10-15T03:04:02.010859Z",
+  "id" : "ac60b11e-3156-43b6-8f78-2d1704095160",
+  "expires_at" : "2023-11-14T03:04:02.010859Z",
+  "authenticator_assurance_level" : "aal1",
+  "identity" : {
+    "traits" : {
+      "email" : "note2622@outlook.com",
+      "last_name" : "",
+      "identity_provider" : "MICROSOFT",
+      "accepted_tos" : 1696830434292,
+      "first_name" : "G G",
+      "guid" : "5a1cf8b3-5d48-4418-826b-0530e55f47a4"
+    },
+    "schema_id" : "v1",
+    "id" : "7e818cf7-1413-4117-98b7-a7a5c581d6c6",
+    "state_changed_at" : "2023-10-09T05:28:31.856672Z",
+    "metadata_public" : {
+      "is_email_fake" : false,
+      "registration_client_platform" : "APPLE",
+      "country" : "USA",
+      "registration_client_os" : "IOS",
+      "accepted_tos" : 1696830434292,
+      "is_personal_data_anonymized" : false,
+      "entitlements" : {
+        "apple_access" : {
+          "expires_at" : 1697526568000
+        },
+        "gn5" : {
+          "expires_at" : 7891268083000
+        },
+        "crossplatform_access" : {
+          "expires_at" : 1697526568000
         }
-      ]
-    },
-    "first_seen": "2023-08-25T11:25:05Z",
-    "original_application_version": "1442266.462619634",
-    "other_purchases": {
-      "com.goodnotes6.one_time_unlock": {
-        "purchase_date": "2023-08-24T03:45:41Z"
-      }
-    },
-    "management_url": null,
-    "subscriptions": {
-    },
-    "entitlements": {
-      "apple_access": {
-        "grace_period_expires_date": null,
-        "purchase_date": "2023-08-24T03:45:41Z",
-        "product_identifier": "com.goodnotes6.one_time_unlock",
-        "expires_date": null
       },
-      "gn5": {
-        "grace_period_expires_date": null,
-        "purchase_date": "2022-01-04T13:41:52Z",
-        "product_identifier": "rc_promo_gn5_lifetime",
-        "expires_date": "2221-11-17T13:41:52Z"
-      },
-      "crossplatform_access": {
-        "grace_period_expires_date": null,
-        "purchase_date": "2023-08-24T03:45:41Z",
-        "product_identifier": "com.goodnotes6.one_time_unlock",
-        "expires_date": null,
-        "Warning": "解锁"
-      },
-      "premium": {
-        "grace_period_expires_date": null,
-        "purchase_date": "2023-08-24T03:45:41Z",
-        "product_identifier": "com.goodnotes6.one_time_unlock",
-        "expires_date": null,
-        "Warning": "解锁"
-      }
+      "guid" : "5a1cf8b3-5d48-4418-826b-0530e55f47a4",
+      "identity_provider" : "MICROSOFT",
+      "freemium_max_documents_gnc" : 3
     },
-    "original_purchase_date": "2022-01-04T13:41:52Z",
-    "original_app_user_id": "4438a86c-7033-455c-ab39-65837f9aecbf",
-    "last_seen": "2023-08-29T04:56:37Z"
-  }
+    "created_at" : "2023-10-09T05:28:31.859693Z",
+    "updated_at" : "2023-10-09T05:28:31.859693Z",
+    "schema_url" : "https://kratos.goodnotes.com/schemas/djE",
+    "state" : "active"
+  },
+  "devices" : [
+    {
+      "ip_address" : "103.212.34.113",
+      "id" : "4aa1fc48-b686-4540-aafd-4088bce89c9b",
+      "user_agent" : "Mozilla/5.0 (iPad; CPU OS 17_0_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0.1 Mobile/15E148 Safari/604.1",
+      "location" : ""
+    }
+  ],
+  "authentication_methods" : [
+    {
+      "method" : "oidc",
+      "aal" : "aal1",
+      "completed_at" : "2023-10-15T03:04:02.010853334Z",
+      "provider" : "microsoft"
+    }
+  ],
+  "authenticated_at" : "2023-10-15T03:04:02.010859Z"
 }
