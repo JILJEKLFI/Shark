@@ -7,7 +7,7 @@
 
  ^https:\/\/isi\.csan\.goodnotes\.com\/.+\/(receipts$|subscribers\/[^/]+$) url script-response-body https://raw.githubusercontent.com/JILJEKLFI/Shark/master/GoodNotesRecipt.js
  ^https:\/\/isi\.csan\.goodnotes\.com\/.+\/subscribers\/[^/]+/(offerings|attributes)$ url request-header (\r\n)X-RevenueCat-ETag:.+(\r\n) request-header $1X-RevenueCat-ETag:$2
- ^https:\/\/isi\.csan\.goodnotes\.com\/nest\/api\/apple\/purchases\/sync url script-response-body https://raw.githubusercontent.com/JILJEKLFI/Shark/master/GoodNotesPurchase.js
+ ^https:\/\/isi\.csan\.goodnotes\.com\/nest\/api\/apple\/purchases\/sync url reject
  [mitm]
 
  hostname=isi.csan.goodnotes.com
@@ -42,7 +42,7 @@ $done({
                 "management_url": "https://apps.apple.com/account/subscriptions",
                 "subscriptions": {
                     "com.goodnotes.premium_1y25off_1y_999": {
-                        "original_purchase_date": "2023-10-15T11:48:28Z",
+                        "original_purchase_date": "2024-10-15T11:48:28Z",
                         "expires_date": "2224-10-15T11:48:23Z",
                         "is_sandbox": false,
                         "refunded_at": null,
