@@ -6,7 +6,7 @@
  [rewrite_local]
 
  ^https:\/\/isi\.csan\.goodnotes\.com\/.+\/(receipts$|subscribers\/[^/]+$) url script-response-body https://raw.githubusercontent.com/JILJEKLFI/Shark/master/GoodNotesRecipt.js
- ^https:\/\/isi\.csan\.goodnotes\.com\/nest\/api\/apple\/purchases\/sync url script-response-body https://raw.githubusercontent.com/JILJEKLFI/Shark/master/GoodNotesRecipt.js
+ ^https:\/\/isi\.csan\.goodnotes\.com\/nest\/api\/apple\/purchases\/sync url 201
  [mitm]
 
  hostname=isi.csan.goodnotes.com
