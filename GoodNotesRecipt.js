@@ -42,7 +42,7 @@ $done({
                 "management_url": "https://apps.apple.com/account/subscriptions",
                 "subscriptions": {
                     "com.goodnotes.premium_1y25off_1y_999": {
-                        "original_purchase_date": "2024-10-15T11:48:28Z",
+                        "original_purchase_date": "2023-10-16T11:48:28Z",
                         "expires_date": "2224-10-15T11:48:23Z",
                         "is_sandbox": false,
                         "refunded_at": null,
@@ -50,7 +50,7 @@ $done({
                         "unsubscribe_detected_at": null,
                         "grace_period_expires_date": null,
                         "period_type": "intro",
-                        "purchase_date": "2023-10-15T11:48:23Z",
+                        "purchase_date": "2023-10-16T11:48:23Z",
                         "billing_issues_detected_at": null,
                         "ownership_type": "PURCHASED",
                         "store": "app_store",
