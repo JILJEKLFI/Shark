@@ -42,18 +42,17 @@ $done({
                 "management_url": "https://apps.apple.com/account/subscriptions",
                 "subscriptions": {
                     "com.goodnotes.premium_1y25off_1y_999": {
-                        "original_purchase_date": "2023-10-16T11:48:28Z",
-                        "expires_date": "2224-10-15T11:48:23Z",
+                        "original_purchase_date": "2022-01-04T13:41:52Z",
+                        "expires_date": "2221-11-17T13:41:52Z",
                         "is_sandbox": false,
                         "refunded_at": null,
-                        "store_transaction_id": "350001726640675",
+                        "store_transaction_id": "67c084dfcc73d94f22c175d1606a8a81",
                         "unsubscribe_detected_at": null,
                         "grace_period_expires_date": null,
-                        "period_type": "intro",
-                        "purchase_date": "2023-10-16T11:48:23Z",
+                        "period_type": "normal",
+                        "purchase_date": "2022-01-04T13:41:52Z",
                         "billing_issues_detected_at": null,
-                        "ownership_type": "PURCHASED",
-                        "store": "app_store",
+                        "store": "promotional",
                         "auto_resume_date": null
                     },
                     "rc_promo_crossplatform_access_weekly": {
