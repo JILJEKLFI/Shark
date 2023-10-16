@@ -41,7 +41,7 @@ $done({
                 },
                 "management_url": "https://apps.apple.com/account/subscriptions",
                 "subscriptions": {
-                    "com.goodnotes.premium_1y25off_1y_999": {
+                    "com.goodnotes.gn6_one_time_unlock_3749": {
                         "original_purchase_date": "2023-10-16T11:48:28Z",
                         "expires_date": "2224-10-15T11:48:23Z",
                         "is_sandbox": false,
@@ -117,7 +117,7 @@ $done({
                     "apple_access": {
                         "grace_period_expires_date": null,
                         "purchase_date": "2024-10-15T11:48:23Z",
-                        "product_identifier": "com.goodnotes.premium_1y25off_1y_999",
+                        "product_identifier": "com.goodnotes.gn6_one_time_unlock_3749",
                         "expires_date": "2224-10-15T11:48:23Z"
                     },
                     "gn5": {
@@ -129,7 +129,7 @@ $done({
                     "crossplatform_access": {
                         "grace_period_expires_date": null,
                         "purchase_date": "2023-10-15T11:48:23Z",
-                        "product_identifier": "com.goodnotes.premium_1y25off_1y_999",
+                        "product_identifier": "com.goodnotes.gn6_one_time_unlock_3749",
                         "expires_date": "2224-10-15T11:48:23Z"
                     },
                     "premium": {
