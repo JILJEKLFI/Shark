@@ -6,6 +6,9 @@
  [rewrite_local]
 
  ^https:\/\/api\.goodnotes\.com\/accounts\/whoami url script-response-body https://raw.githubusercontent.com/JILJEKLFI/Shark/master/GoodNotesProCrack.js
+ ^https:\/\/isi\.csan\.goodnotes\.com\/.+\/(receipts$|subscribers\/[^/]+$) url reject
+ ^https:\/\/isi\.csan\.goodnotes\.com\/.+\/subscribers\/[^/]+/(offerings|attributes)$ url request-header (\r\n)X-RevenueCat-ETag:.+(\r\n) request-header $1X-RevenueCat-ETag:$2
+ ^https:\/\/isi\.csan\.goodnotes\.com(\.cn)?\/nest\/api\/apple\/purchases\/sync url reject
 
  [mitm]
 
@@ -38,16 +41,16 @@ var whoami = {
             "is_personal_data_anonymized" : false,
             "entitlements" : {
                 "apple_access" : {
-                    "expires_at" : 1855232049000
+                    "expires_at" : 7948503712000
                 },
                 "gn5" : {
                     "expires_at" : 7948503712000
                 },
                 "crossplatform_access" : {
-                    "expires_at" : 1855232049000
+                    "expires_at" : 7948503712000
                 },
                 "premium" : {
-                    "expires_at" : 1693453541000
+                    "expires_at" : 7948503712000
                 }
             },
             "guid" : "4438a86c-7033-455c-ab39-65837f9aecbf",
