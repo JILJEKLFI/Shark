@@ -84,8 +84,8 @@ let maxQuestion = ''; // 最高用时题目
 let maxTime = null; // 最高用时时间
 
 // 定义一些常量，用于控制题目的位数和步数
-const DIGITS = 2; // 题目的位数
-const STEPS = 7; // 题目的步数
+const DIGITS = 3; // 题目的位数
+const STEPS = 4; // 题目的步数
 
 // 输出欢迎信息和提示信息
 console.log(`本程序将为您生成${DIGITS}位数的${STEPS}步加减法练习题。`);
