@@ -10,7 +10,7 @@
 
  [mitm]
 
- hostname=isi.csan.goodnotesapp.com
+ hostname=isi.csan.goodnotes.com
 
  ***********************************/
 
