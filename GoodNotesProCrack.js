@@ -79,6 +79,5 @@ var whoami = {
 }
 
 $done({
-    status: 200,
     body: JSON.stringify(whoami)
 });
