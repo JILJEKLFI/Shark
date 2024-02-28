@@ -5,11 +5,11 @@
 
  [rewrite_local]
 
- ^https:\/\/isi\.csan\.goodnotesapp\.com(\.cn)?\/nest\/api\/apple\/purchases\/sync url script-response-body https://raw.githubusercontent.com/JILJEKLFI/Shark/master/GoodNotesPurchase.js
+ ^https:\/\/isi\.csan\.goodnotes\.com(\.cn)?\/nest\/api\/apple\/purchases\/sync url script-response-body https://raw.githubusercontent.com/JILJEKLFI/Shark/master/GoodNotesPurchase.js
 
  [mitm]
 
- hostname=isi.csan.goodnotesapp.com
+ hostname=isi.csan.goodnotes.com
 
  ***********************************/
 
