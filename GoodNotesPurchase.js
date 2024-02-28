@@ -5,7 +5,7 @@
 
  [rewrite_local]
 
- ^https:\/\/isi\.csan\.goodnotes\.com(\.cn)?\/nest\/api\/apple\/purchases\/sync url script-response-body https://raw.githubusercontent.com/JILJEKLFI/Shark/master/GoodNotesPurchase.js
+ ^https:\/\/isi\.csan\.goodnotesapp\.com(\.cn)?\/nest\/api\/apple\/purchases\/sync url script-response-body https://raw.githubusercontent.com/JILJEKLFI/Shark/master/GoodNotesPurchase.js
 
  [mitm]
 
