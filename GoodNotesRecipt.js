@@ -15,7 +15,6 @@
  ***********************************/
 
 $done({
-    status: "HTTP/1.1 200 OK",
     body: JSON.stringify({
             "request_date_ms": 1697370985119,
             "request_date": "2023-10-15T11:56:25Z",
