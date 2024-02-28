@@ -5,7 +5,7 @@
 
  [rewrite_local]
 
- ^https:\/\/api\.goodnotes\.com\/accounts\/whoami url script-response-body https://raw.githubusercontent.com/JILJEKLFI/Shark/master/GoodNotesProCrack.js
+ ^https:\/\/api\.goodnotes\.com\/accounts\/whoami url script-echo-response https://raw.githubusercontent.com/JILJEKLFI/Shark/master/GoodNotesProCrack.js
 
  [mitm]
 
@@ -79,5 +79,6 @@ var whoami = {
 }
 
 $done({
+    status: "HTTP/1.1 200 OK",
     body: JSON.stringify(whoami)
 });

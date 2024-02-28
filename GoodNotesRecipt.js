@@ -5,7 +5,7 @@
 
  [rewrite_local]
 
- ^https:\/\/isi\.csan\.goodnotesapp\.com\.cn\/.+\/(receipts$|subscribers\/[^/]+$) url script-response-body https://raw.githubusercontent.com/JILJEKLFI/Shark/master/GoodNotesRecipt.js
+ ^https:\/\/isi\.csan\.goodnotesapp\.com\.cn\/.+\/(receipts$|subscribers\/[^/]+$) url script-echo-response https://raw.githubusercontent.com/JILJEKLFI/Shark/master/GoodNotesRecipt.js
  ^https:\/\/isi\.csan\.goodnotesapp\.com\.cn\/.+\/subscribers\/[^/]+/(offerings|attributes)$ url request-header (\r\n)X-RevenueCat-ETag:.+(\r\n) request-header $1X-RevenueCat-ETag:$2
 
  [mitm]
@@ -15,6 +15,7 @@
  ***********************************/
 
 $done({
+    status: "HTTP/1.1 200 OK",
     body: JSON.stringify({
             "request_date_ms": 1697370985119,
             "request_date": "2023-10-15T11:56:25Z",
