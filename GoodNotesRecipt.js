@@ -5,19 +5,19 @@
 
  [rewrite_local]
 
- ^https:\/\/isi\.csan\.goodnotes\.com\/.+\/(receipts$|subscribers\/[^/]+$) url script-response-body https://raw.githubusercontent.com/JILJEKLFI/Shark/master/GoodNotesRecipt.js
- ^https:\/\/isi\.csan\.goodnotes\.com\/.+\/subscribers\/[^/]+/(offerings|attributes)$ url request-header (\r\n)X-RevenueCat-ETag:.+(\r\n) request-header $1X-RevenueCat-ETag:$2
+ ^https:\/\/isi\.csan\.goodnotes\.com(\.cn)?\/.+\/(receipts$|subscribers\/[^/]+$) url script-response-body https://raw.githubusercontent.com/JILJEKLFI/Shark/master/GoodNotesRecipt.js
+ ^https:\/\/isi\.csan\.goodnotes\.com(\.cn)?\/.+\/subscribers\/[^/]+/(offerings|attributes)$ url request-header (\r\n)X-RevenueCat-ETag:.+(\r\n) request-header $1X-RevenueCat-ETag:$2
 
  [mitm]
 
- hostname=isi.csan.goodnotes.com
+ hostname = isi.csan.goodnotes.com, isi.csan.goodnotes.com.cn
 
  ***********************************/
 
 $done({
     body: JSON.stringify({
-            "request_date_ms": 1697370985119,
-            "request_date": "2023-10-15T11:56:25Z",
+            "request_date_ms": 1709170427901,
+            "request_date": "2024-02-29T01:33:47Z",
             "subscriber": {
                 "non_subscriptions": {
                     "com.goodnotes.premium_7dt": [
