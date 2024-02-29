@@ -20,6 +20,17 @@ $done({
             "request_date": "2024-02-29T01:33:47Z",
             "subscriber": {
                 "non_subscriptions": {
+                    "com.goodnotes.gn6_one_time_unlock_3999" : [
+                        {
+                            "is_sandbox" : false,
+                            "ownership_type" : "PURCHASED",
+                            "id" : "77d843abe3",
+                            "original_purchase_date" : "2024-02-29T01:30:34Z",
+                            "store_transaction_id" : "350001886888493",
+                            "purchase_date" : "2024-02-29T01:30:34Z",
+                            "store" : "app_store"
+                        }
+                    ],
                     "com.goodnotes.premium_7dt": [
                         {
                             "is_sandbox": false,

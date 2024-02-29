@@ -35,10 +35,10 @@ var whoami = {
             "country" : "CHN",
             "registration_client_os" : "IOS",
             "accepted_tos" : 1692964698680,
-            "is_personal_data_anonymized" : false,
+            "is_personal_data_anonymized" : true,
             "entitlements" : {
                 "apple_access" : {
-                    "expires_at" : 7948503712000
+                    "expires_at" : null
                 },
                 "gn5" : {
                     "expires_at" : 7948503712000
