@@ -31,25 +31,26 @@ var whoami = {
         "id" : "f77fc589-281a-40cd-951f-cb23cec46d83",
         "state_changed_at" : "2023-08-25T11:25:02.320976Z",
         "metadata_public" : {
-            "is_email_fake" : false,
-            "received_welcome_email" : 1709125615394,
-            "country" : "USA",
-            "registration_client_os" : "IOS",
             "registration_client_platform" : "APPLE",
-            "accepted_tos" : 1709125636583,
-            "is_personal_data_anonymized" : true,
+            "country" : "CHN",
+            "registration_client_os" : "IOS",
+            "accepted_tos" : 1692964698680,
+            "is_personal_data_anonymized" : false,
             "entitlements" : {
                 "apple_access" : {
-                    "expires_at" : null
+                    "expires_at" : 7948503712000
                 },
-                "premium" : {
-                    "expires_at" : 1693453541000
+                "gn5" : {
+                    "expires_at" : 7948503712000
                 },
                 "crossplatform_access" : {
-                    "expires_at" : 1697489857000
+                    "expires_at" : 7948503712000
+                },
+                "premium" : {
+                    "expires_at" : 7948503712000
                 }
             },
-            "guid" : "92862a49-59f3-49ce-a148-116800ce5976",
+            "guid" : "4438a86c-7033-455c-ab39-65837f9aecbf",
             "identity_provider" : "APPLE",
             "freemium_max_documents_gnc" : 3
         },
