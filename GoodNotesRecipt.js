@@ -16,10 +16,10 @@
 
 $done({
     body: JSON.stringify({
-            "request_date_ms": 1709170427901,
-            "request_date": "2024-02-29T01:33:47Z",
-            "subscriber": {
-                "non_subscriptions": {
+            "request_date_ms" : 1709170427901,
+            "request_date" : "2024-02-29T01:33:47Z",
+            "subscriber" : {
+                "non_subscriptions" : {
                     "com.goodnotes.gn6_one_time_unlock_3999" : [
                         {
                             "is_sandbox" : false,
@@ -31,128 +31,83 @@ $done({
                             "store" : "app_store"
                         }
                     ],
-                    "com.goodnotes.premium_7dt": [
+                    "com.goodnotes.premium_7dt" : [
                         {
-                            "is_sandbox": false,
-                            "ownership_type": "PURCHASED",
-                            "id": "c3f10caf05",
-                            "original_purchase_date": "2023-08-24T03:45:41Z",
-                            "store_transaction_id": "350001668680087",
-                            "purchase_date": "2023-08-24T03:45:41Z",
-                            "store": "app_store"
+                            "is_sandbox" : false,
+                            "ownership_type" : "PURCHASED",
+                            "id" : "2d8b30e73c",
+                            "original_purchase_date" : "2023-08-24T03:45:41Z",
+                            "store_transaction_id" : "350001668680087",
+                            "purchase_date" : "2023-08-24T03:45:41Z",
+                            "store" : "app_store"
                         }
                     ]
                 },
-                "first_seen": "2023-08-25T11:25:05Z",
-                "original_application_version": "1442266.462619634",
-                "other_purchases": {
-                    "com.goodnotes.premium_7dt": {
-                        "purchase_date": "2023-08-24T03:45:41Z"
+                "first_seen" : "2024-02-28T13:06:59Z",
+                "original_application_version" : "2311746.364543925",
+                "other_purchases" : {
+                    "com.goodnotes.gn6_one_time_unlock_3999" : {
+                        "purchase_date" : "2024-02-29T01:30:34Z"
+                    },
+                    "com.goodnotes.premium_7dt" : {
+                        "purchase_date" : "2023-08-24T03:45:41Z"
                     }
                 },
-                "management_url": "https://apps.apple.com/account/subscriptions",
-                "subscriptions": {
-                    "com.goodnotes.gn6_one_time_unlock_3749": {
-                        "original_purchase_date": "2023-10-16T11:48:28Z",
-                        "expires_date": "2224-10-15T11:48:23Z",
-                        "is_sandbox": false,
-                        "refunded_at": null,
-                        "store_transaction_id": "350001726640675",
-                        "unsubscribe_detected_at": null,
-                        "grace_period_expires_date": null,
-                        "period_type": "intro",
-                        "purchase_date": "2023-10-16T11:48:23Z",
-                        "billing_issues_detected_at": null,
-                        "ownership_type": "PURCHASED",
-                        "store": "app_store",
-                        "auto_resume_date": null
+                "management_url" : null,
+                "subscriptions" : {
+                    "rc_promo_premium_weekly" : {
+                        "original_purchase_date" : "2023-08-24T03:45:41Z",
+                        "expires_date" : "2023-08-31T03:45:41Z",
+                        "is_sandbox" : false,
+                        "refunded_at" : null,
+                        "store_transaction_id" : "1f1d1959b35d8d526ed4a307c655ec9a",
+                        "unsubscribe_detected_at" : null,
+                        "grace_period_expires_date" : null,
+                        "period_type" : "normal",
+                        "purchase_date" : "2023-08-24T03:45:41Z",
+                        "billing_issues_detected_at" : null,
+                        "store" : "promotional",
+                        "auto_resume_date" : null
                     },
-                    "rc_promo_crossplatform_access_weekly": {
-                        "original_purchase_date": "2023-08-24T03:45:41Z",
-                        "expires_date": "2023-08-31T03:45:41Z",
-                        "is_sandbox": false,
-                        "refunded_at": null,
-                        "store_transaction_id": "b2cd2ee1ff7394e52a090b2bf4e22b32",
-                        "unsubscribe_detected_at": null,
-                        "grace_period_expires_date": null,
-                        "period_type": "normal",
-                        "purchase_date": "2023-08-24T03:45:41Z",
-                        "billing_issues_detected_at": null,
-                        "store": "promotional",
-                        "auto_resume_date": null
-                    },
-                    "rc_promo_gn5_lifetime": {
-                        "original_purchase_date": "2022-01-04T13:41:52Z",
-                        "expires_date": "2221-11-17T13:41:52Z",
-                        "is_sandbox": false,
-                        "refunded_at": null,
-                        "store_transaction_id": "67c084dfcc73d94f22c175d1606a8a81",
-                        "unsubscribe_detected_at": null,
-                        "grace_period_expires_date": null,
-                        "period_type": "normal",
-                        "purchase_date": "2022-01-04T13:41:52Z",
-                        "billing_issues_detected_at": null,
-                        "store": "promotional",
-                        "auto_resume_date": null
-                    },
-                    "rc_promo_apple_access_weekly": {
-                        "original_purchase_date": "2023-08-24T03:45:41Z",
-                        "expires_date": "2023-08-31T03:45:41Z",
-                        "is_sandbox": false,
-                        "refunded_at": null,
-                        "store_transaction_id": "3bfdea00dc3bd229e024321c7b145dab",
-                        "unsubscribe_detected_at": null,
-                        "grace_period_expires_date": null,
-                        "period_type": "normal",
-                        "purchase_date": "2023-08-24T03:45:41Z",
-                        "billing_issues_detected_at": null,
-                        "store": "promotional",
-                        "auto_resume_date": null
-                    },
-                    "rc_promo_premium_weekly": {
-                        "original_purchase_date": "2023-08-24T03:45:41Z",
-                        "expires_date": "2023-08-31T03:45:41Z",
-                        "is_sandbox": false,
-                        "refunded_at": null,
-                        "store_transaction_id": "3744b2789273b019c49cf75f24e7f4e4",
-                        "unsubscribe_detected_at": null,
-                        "grace_period_expires_date": null,
-                        "period_type": "normal",
-                        "purchase_date": "2023-08-24T03:45:41Z",
-                        "billing_issues_detected_at": null,
-                        "store": "promotional",
-                        "auto_resume_date": null
+                    "com.goodnotes.premium_1y25off_1y_999" : {
+                        "original_purchase_date" : "2023-10-15T11:48:28Z",
+                        "expires_date" : "2023-10-16T20:57:37Z",
+                        "is_sandbox" : false,
+                        "refunded_at" : "2023-10-16T20:57:37Z",
+                        "store_transaction_id" : "350001726640675",
+                        "unsubscribe_detected_at" : "2024-02-28T13:19:49Z",
+                        "grace_period_expires_date" : null,
+                        "period_type" : "intro",
+                        "purchase_date" : "2023-10-15T11:48:23Z",
+                        "billing_issues_detected_at" : null,
+                        "ownership_type" : "PURCHASED",
+                        "store" : "app_store",
+                        "auto_resume_date" : null
                     }
                 },
-                "entitlements": {
-                    "apple_access": {
-                        "grace_period_expires_date": null,
-                        "purchase_date": "2024-10-15T11:48:23Z",
-                        "product_identifier": "com.goodnotes.gn6_one_time_unlock_3749",
-                        "expires_date": "2224-10-15T11:48:23Z"
+                "entitlements" : {
+                    "apple_access" : {
+                        "grace_period_expires_date" : null,
+                        "purchase_date" : "2024-02-29T01:30:34Z",
+                        "product_identifier" : "com.goodnotes.gn6_one_time_unlock_3999",
+                        "expires_date" : null
                     },
-                    "gn5": {
-                        "grace_period_expires_date": null,
-                        "purchase_date": "2022-01-04T13:41:52Z",
-                        "product_identifier": "rc_promo_gn5_lifetime",
-                        "expires_date": "2221-11-17T13:41:52Z"
+                    "premium" : {
+                        "grace_period_expires_date" : null,
+                        "purchase_date" : "2023-08-24T03:45:41Z",
+                        "product_identifier" : "rc_promo_premium_weekly",
+                        "expires_date" : "2023-08-31T03:45:41Z"
                     },
-                    "crossplatform_access": {
-                        "grace_period_expires_date": null,
-                        "purchase_date": "2023-10-15T11:48:23Z",
-                        "product_identifier": "com.goodnotes.gn6_one_time_unlock_3749",
-                        "expires_date": "2224-10-15T11:48:23Z"
-                    },
-                    "premium": {
-                        "grace_period_expires_date": null,
-                        "purchase_date": "2023-08-24T03:45:41Z",
-                        "product_identifier": "rc_promo_premium_weekly",
-                        "expires_date": "2023-08-31T03:45:41Z"
+                    "crossplatform_access" : {
+                        "grace_period_expires_date" : null,
+                        "purchase_date" : "2023-10-15T11:48:23Z",
+                        "product_identifier" : "com.goodnotes.premium_1y25off_1y_999",
+                        "expires_date" : "2023-10-16T20:57:37Z"
                     }
                 },
-                "original_purchase_date": "2022-01-04T13:41:52Z",
-                "original_app_user_id": "4438a86c-7033-455c-ab39-65837f9aecbf",
-                "last_seen": "2023-10-15T01:54:14Z"
+                "original_purchase_date" : "2023-08-28T16:08:01Z",
+                "original_app_user_id" : "92862a49-59f3-49ce-a148-116800ce5976",
+                "last_seen" : "2024-02-28T13:19:51Z"
             }
         }
     )
