@@ -23,19 +23,21 @@ var whoami = {
             "email" : "b4k8znnv9t@privaterelay.appleid.com",
             "last_name" : "",
             "identity_provider" : "APPLE",
-            "accepted_tos" : 1692964698680,
-            "first_name" : "我爱破解",
-            "guid" : "4438a86c-7033-455c-ab39-65837f9aecbf"
+            "accepted_tos" : 1709125636583,
+            "first_name" : "b4k8znnv9t",
+            "guid" : "92862a49-59f3-49ce-a148-116800ce5976"
         },
         "schema_id" : "v1",
-        "id" : "f77fc589-281a-40cd-951f-cb23cec46d83",
-        "state_changed_at" : "2023-08-25T11:25:02.320976Z",
+        "id" : "be7da5fd-c2d1-4897-9ce5-0fccd3e60a25",
+        "state_changed_at" : "2024-02-28T13:06:54.839835Z",
         "metadata_public" : {
-            "registration_client_platform" : "APPLE",
-            "country" : "CHN",
+            "is_email_fake" : false,
+            "received_welcome_email" : 1709125615394,
+            "country" : "USA",
             "registration_client_os" : "IOS",
-            "accepted_tos" : 1692964698680,
-            "is_personal_data_anonymized" : false,
+            "registration_client_platform" : "APPLE",
+            "accepted_tos" : 1709125636583,
+            "is_personal_data_anonymized" : true,
             "entitlements" : {
                 "apple_access" : {
                     "expires_at" : null
@@ -47,7 +49,7 @@ var whoami = {
                     "expires_at" : 1697489857000
                 }
             },
-            "guid" : "4438a86c-7033-455c-ab39-65837f9aecbf",
+            "guid" : "92862a49-59f3-49ce-a148-116800ce5976",
             "identity_provider" : "APPLE",
             "freemium_max_documents_gnc" : 3
         },
