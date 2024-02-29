@@ -5,12 +5,12 @@
 
  [rewrite_local]
 
- ^https:\/\/isi\.csan\.goodnotes\.com(\.cn)?\/.+\/(receipts$|subscribers\/[^/]+$) url script-response-body https://raw.githubusercontent.com/JILJEKLFI/Shark/master/GoodNotesRecipt.js
- ^https:\/\/isi\.csan\.goodnotes\.com(\.cn)?\/.+\/subscribers\/[^/]+/(offerings|attributes)$ url request-header (\r\n)X-RevenueCat-ETag:.+(\r\n) request-header $1X-RevenueCat-ETag:$2
+ ^https:\/\/isi\.csan\.goodnotes(app)?\.com(\.cn)?\/.+\/(receipts$|subscribers\/[^/]+$) url script-response-body https://raw.githubusercontent.com/JILJEKLFI/Shark/master/GoodNotesRecipt.js
+ ^https:\/\/isi\.csan\.goodnotes(app)?\.com(\.cn)?\/.+\/subscribers\/[^/]+/(offerings|attributes)$ url request-header (\r\n)X-RevenueCat-ETag:.+(\r\n) request-header $1X-RevenueCat-ETag:$2
 
  [mitm]
 
- hostname = isi.csan.goodnotes.com, isi.csan.goodnotes.com.cn
+ hostname = isi.csan.goodnotes.com, isi.csan.goodnotesapp.com.cn
 
  ***********************************/
 
