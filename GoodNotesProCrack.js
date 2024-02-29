@@ -38,16 +38,13 @@ var whoami = {
             "is_personal_data_anonymized" : false,
             "entitlements" : {
                 "apple_access" : {
-                    "expires_at" : 7948503712000
-                },
-                "gn5" : {
-                    "expires_at" : 7948503712000
-                },
-                "crossplatform_access" : {
-                    "expires_at" : 7948503712000
+                    "expires_at" : null
                 },
                 "premium" : {
-                    "expires_at" : 7948503712000
+                    "expires_at" : 1693453541000
+                },
+                "crossplatform_access" : {
+                    "expires_at" : 1697489857000
                 }
             },
             "guid" : "4438a86c-7033-455c-ab39-65837f9aecbf",
